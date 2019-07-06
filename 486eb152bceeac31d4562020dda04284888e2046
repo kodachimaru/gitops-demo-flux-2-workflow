@@ -1,0 +1,1 @@
+{"jobID":"ec20c1bb-0f8b-b9ed-e635-b3352b87db2b","spec":{"type":"policy","cause":{"Message":"","User":""},"spec":{"staging:helmrelease/mysql-staging":{"add":{"tag.chart-image":"glob:5.7.*"},"remove":{}}}},"result":null}
