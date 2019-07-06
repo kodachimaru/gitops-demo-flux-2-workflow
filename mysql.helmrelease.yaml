@@ -2,10 +2,10 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: mysql-dev
-  namespace: dev
+  name: mysql-staging
+  namespace: staging
 spec:
-  releaseName: mysql-dev
+  releaseName: mysql-staging
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: mysql
